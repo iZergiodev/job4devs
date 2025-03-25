@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router";
 
@@ -62,7 +61,7 @@ const Home: React.FC = () => {
           </svg>
         </div>
         <Link
-          to="/registro"
+          to="/register"
           className="bg-blue-600 text-white px-6 py-2 mt-16 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold"
         >
           Registro
@@ -116,6 +115,7 @@ const Home: React.FC = () => {
           ))}
         </div>
       </div>
+    </div>
   );
 };
 
