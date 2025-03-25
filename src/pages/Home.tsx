@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="w-full min-h-screen bg-gray-100 relative">
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-3 right-3">
         <img
           src="https://i.pinimg.com/736x/fa/11/f3/fa11f317e769294696f043b1e5792243.jpg"
           alt="avatar"
@@ -38,12 +38,12 @@ const Home: React.FC = () => {
         )}
       </div>
 
-      <div className="flex justify-center mt-16 space-x-6">
-        <div className="relative w-2/4 max-w-md">
+      <div className="flex justify-center space-x-6">
+        <div className="relative w-2/4 max-w-md mt-16">
           <input
             type="text"
             placeholder="Buscar el nombre de la empresa"
-            className="w-full p-3 pl-10 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900"
+            className="w-full p-3 pl-10 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 text-gray-900"
           />
           <svg
             className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-500"
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         </div>
         <Link
           to="/registro"
-          className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold"
+          className="bg-blue-600 text-white px-6 py-2 mt-16 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold"
         >
           Registro
         </Link>
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
                 </div>
                 <button
                   onClick={() => removeCard(card.id)}
-                  className="text-white hover:text-gray-200"
+                  className="text-white hover:text-gray-200 cursor-pointer"
                 >
                   <svg
                     className="w-5 h-5"
