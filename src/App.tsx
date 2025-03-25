@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router";
 import Home from "./pages/Home";
-import Registro from "./pages/Registro";
+import Register from "./pages/Register";
 
 const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/registro" element={<Registro />} />
+      <Route path="/registro" element={<Register />} />
     </Routes>
   );
 };

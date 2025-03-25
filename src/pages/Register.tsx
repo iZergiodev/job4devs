@@ -1,4 +1,4 @@
-const Registro = () => {
+const Register = () => {
   return (
     <div>
       <h1>Pantalla de registro</h1>
@@ -7,4 +7,4 @@ const Registro = () => {
   );
 };
 
-export default Registro;
+export default Register;
