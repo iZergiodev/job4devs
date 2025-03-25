@@ -1,6 +1,4 @@
-import React from "react";
-
-const Registro: React.FC = () => {
+const Registro = () => {
   return (
     <div>
       <h1>Pantalla de registro</h1>
