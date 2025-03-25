@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-const Registro: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <div>
       <h1>Pantalla de registro</h1>
@@ -11,4 +11,4 @@ const Registro: React.FC = () => {
   );
 };
 
-export default Registro;
+export default Register;
